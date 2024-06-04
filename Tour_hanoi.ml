@@ -51,3 +51,5 @@ let rec time_hanoi n =
 
 let () =
   time_hanoi 5;;
+
+  (*C’est à partir de la valeur n=23 qu’on dépasse 10 seconds selon ce code. n est le nombre de disque*)
